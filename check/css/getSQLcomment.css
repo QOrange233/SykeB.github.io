@@ -1,0 +1,11 @@
+.commentBlock section  table{padding: 5px 0; border-bottom: 1px #999999 dashed;
+    overflow: hidden;font-family: "bodoni mt"}
+	
+	/* 图片栏 */
+.commentBlock .gettouxiang{float: left; width: 50px; margin-right: 10px;margin-top: 5px;}
+/* 网名栏 */
+.commentBlock .gettouScreenName{float: left; width: 150px; margin-right: 10px;margin-top: 5px;}
+/* 图片圆 */
+.commentBlock  img{ border-radius:50%; width: 40px;}
+/* 评论内容字体大小 */
+.commentBlock  h1{float: left; width: 300px; font-size: 16px; line-height: 25px;}
