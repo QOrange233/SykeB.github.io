@@ -26,20 +26,21 @@
     <br>
 <h3>其他</h3>
 <p>源码:<a href="https://github.com/ubc2">@ubc2</a><br>
-<link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
-<script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
-<div id="gitalk-container"></div>     <script type="text/javascript">
-    var gitalk = new Gitalk({
-		clientID:'7b30cd222916e6a01543',
-		clientSecret:'e13b604fad7bc19f7d6f1dbd434c142f51efac92',
-		repo:'gitalk-comment',
-		owner:'SykeB',
-		admin:['SykeB'],
-                id:'md5(location.pathname)',
-	        labels=['Gitalk,demo']
-});
-gitalk.render('gitalk-container');
-</script> 
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+const gitalk = new Gitalk({
+  clientID: '7b30cd222916e6a01543',
+  clientSecret: 'e13b604fad7bc19f7d6f1dbd434c142f51efac92',
+  repo: 'gitalk-comment',
+  owner: 'SykeB',
+  admin: ['SykeB'],
+  id: location.index.html,
+  distractionFreeMode: false
+})
+
+gitalk.render('gitalk-container')
+</script>
 <script src="js/Live2D@1.9/kbn.js" defer></script>
 </body>
 </html>
